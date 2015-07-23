@@ -1,0 +1,20 @@
+{
+  "name": "front-end",
+  "version": "0.0.0",
+  "authors": [
+    "Jian Lv <jlv@thoughtworks.com>"
+  ],
+  "description": "pricing tech session",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
