@@ -1,5 +1,6 @@
 body {
     font-size: 28px;
+    padding: 50px;
 }
 
 input {
@@ -17,4 +18,28 @@ input {
 }
 #form-container.edit #form-view {
     display: none;
+}
+
+.panel {
+    width: 400px;
+    border: solid 1px #666;
+}
+
+.panel .panel-title * {
+    color: #fff;
+}
+
+.panel .panel-title {
+    height: 44px;
+    background-color: #666;
+}
+
+.panel .panel-body {
+    padding: 20px;
+}
+
+.panel .right-icon {
+    float: right;
+    margin-right: 12px;
+    line-height: 44px;
 }
