@@ -1,0 +1,20 @@
+body {
+    font-size: 28px;
+}
+
+input {
+    font-size: 28px;
+}
+#form-container form {
+    display: none;
+}
+#form-container #form-view {
+    display: inline-block;
+}
+
+#form-container.edit form {
+    display: block;
+}
+#form-container.edit #form-view {
+    display: none;
+}
